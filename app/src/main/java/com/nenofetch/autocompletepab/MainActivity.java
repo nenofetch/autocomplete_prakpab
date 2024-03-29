@@ -57,11 +57,6 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
     public void afterTextChanged(Editable s) {
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Toast.makeText(this, "Resume", Toast.LENGTH_LONG).show();
-    }
 
     @Override
     protected void onPause() {
@@ -72,9 +67,4 @@ public class MainActivity extends AppCompatActivity implements TextWatcher {
     }
 
 
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        Toast.makeText(this, "OK", Toast.LENGTH_LONG).show();
-    }
 }
