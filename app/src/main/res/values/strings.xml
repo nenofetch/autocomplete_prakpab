@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Autocomplete PAB</string>
+    <string name="listview_klik_dan_pilih_nama_prodi_fkom">ListView - Klik dan pilih nama prodi FKOM</string>
+    <string name="autocomplete_ketikkan_nama_prodi_fkom">AutoComplete - Ketikkan nama prodi FKOM</string>
 </resources>

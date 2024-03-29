@@ -9,13 +9,13 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:completionThreshold="3"
-        android:hint="AutoComplete - Ketikkan nama fakultas" />
+        android:hint="@string/autocomplete_ketikkan_nama_prodi_fkom" />
     <EditText android:id="@+id/datalistview"
         android:padding="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="pilihfakultas"
         android:focusableInTouchMode="false"
-        android:hint="ListView - Klik dan pilih nama fakultas"
+        android:hint="@string/listview_klik_dan_pilih_nama_prodi_fkom"
         />
 </LinearLayout>
